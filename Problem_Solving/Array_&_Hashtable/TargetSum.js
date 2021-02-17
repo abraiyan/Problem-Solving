@@ -1,5 +1,5 @@
 /*
-    Problem: Target Sum from an Array (Pair)
+    Problem: Target Sum from an Array (pair)
     < [1, 2, 3, 9], Target Sum: 8 --> false (No pair found)
     < [1, 2, 4, 4], Target Sum: 8 --> true (4 and 4 add up to 8) 
 
