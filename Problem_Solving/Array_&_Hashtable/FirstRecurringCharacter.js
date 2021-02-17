@@ -4,7 +4,7 @@
     < 'BCABA' --> 'B'
     < 'ABC' --> null
 
-    # Use: Array, HashTable
+    # Use: Array, HashTable (Map)
     -> Time Complexity: O(n), Space Complexity: O(n)
 */
 
@@ -15,6 +15,7 @@ const testCaseThree = 'ABC'
 function firstRecurringCharacter(string) {
   const map = {} //You can use Map or Hashtable here in other language
   const n = string.length
+
   for (let i = 0; i < n; i++) {
     if (map[string[i]]) {
       return string[i]
