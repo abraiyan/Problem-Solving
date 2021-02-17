@@ -25,4 +25,4 @@ function firstRecurringCharacter(string) {
   return null
 }
 
-console.log(firstRecurringCharacter(testCaseTwo))
+//console.log(firstRecurringCharacter(testCaseOne))
