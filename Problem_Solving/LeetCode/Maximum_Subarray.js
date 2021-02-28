@@ -1,5 +1,5 @@
 /*
-    Problem: Maximum Subarray (https://leetcode.com/problems/product-of-array-except-self/)
+    Problem: Maximum Subarray (https://leetcode.com/problems/maximum-subarray/)
 
     < Input: nums = [-2,1,-3,4,-1,2,1,-5,4]
     < Output: 6
