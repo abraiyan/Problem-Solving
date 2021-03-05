@@ -6,7 +6,7 @@
     < Input: s = "foo", t = "bar"
     < Output: false
 
-    # Use: HashMap
+    # Use: HashMap, String
     -> Time Complexity: O(n), Space Complexity: O(n)
 */
 
