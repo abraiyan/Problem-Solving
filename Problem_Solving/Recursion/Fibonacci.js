@@ -10,8 +10,8 @@
 
 function fibonacciDynamic(memory, n) {
   if (n === 0) return 0
-  let result
 
+  let result
   if (memory[n]) {
     return memory[n]
   }
