@@ -19,6 +19,5 @@ var findMaxConsecutiveOnes = function (nums) {
     }
   }
 
-  if (currentCount > maxCount) return currentCount
-  return maxCount
+  return currentCount > maxCount ? currentCount : maxCount
 }
