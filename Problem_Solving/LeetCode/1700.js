@@ -22,6 +22,5 @@ var countStudents = function (students, sandwiches) {
       square--
     }
   }
-
   return circular + square
 }
