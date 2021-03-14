@@ -1,7 +1,7 @@
 /*
     Problem: Slowest Key (https://leetcode.com/problems/slowest-key/)
 
-    -> Time Complexity: O(n), Space Complexity: O(n)
+    -> Time Complexity: O(n), Space Complexity: O(1)
 */
 
 var slowestKey = function (releaseTimes, keysPressed) {
