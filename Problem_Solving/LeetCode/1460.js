@@ -13,17 +13,17 @@ var canBeEqual = function (target, arr) {
     } else {
       map.set(target[i], 1)
     }
-  }
 
-  for (let i = 0; i < arr.length; i++) {
     if (map.has(arr[i])) {
       map.set(arr[i], map.get(arr[i]) - 1)
-    }
-
-    if (map.get(arr[i]) === 0) {
-      map.delete(arr[i])
+    } else {
+      map.set(arr[i], -1)
     }
   }
 
-  return map.size === 0
+  for (const key of map.keys()) {
+    if (map.get(key) !== 0) return false
+  }
+
+  return true
 }
