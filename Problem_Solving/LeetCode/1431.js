@@ -13,11 +13,7 @@ var kidsWithCandies = function (candies, extraCandies) {
   }
 
   for (let i = 0; i < candies.length; i++) {
-    if (candies[i] + extraCandies >= max) {
-      output.push(true)
-    } else {
-      output.push(false)
-    }
+    output.push(candies[i] + extraCandies >= max)
   }
 
   return output
