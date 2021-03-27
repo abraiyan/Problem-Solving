@@ -1,6 +1,5 @@
 /*
     Problem: Create Target Array in the Given Order (https://leetcode.com/problems/create-target-array-in-the-given-order/)
-  
     -> Time Complexity: O(n), Space Complexity: O(n)
 */
 
