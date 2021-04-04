@@ -3,7 +3,6 @@
 
     # Array, Math
     -> Time Complexity: O(n), Space Complexity: O(1)
-
 */
 
 var minTimeToVisitAllPoints = function (points) {
