@@ -32,6 +32,5 @@ var helper = function (wordOne, wordTwo, order) {
     )
       return false
   }
-
   return true
 }
