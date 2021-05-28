@@ -6,11 +6,7 @@ var uncommonFromSentences = function (s1, s2) {
   let output = []
   const map = new Map()
 
-  for (const s of s1.split(' ')) {
-    map.set(s, map.has(s) ? map.get(s) + 1 : 1)
-  }
-
-  for (const s of s2.split(' ')) {
+  for (const s of [...s1.split(' '), ...s2.split(' ')]) {
     map.set(s, map.has(s) ? map.get(s) + 1 : 1)
   }
 
