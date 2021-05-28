@@ -13,5 +13,5 @@ var trimMean = function (arr) {
     total += arr[i]
   }
 
-  return total / ((n * 9) / 10)
+  return total / (end - start + 1)
 }
