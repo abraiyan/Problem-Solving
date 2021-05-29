@@ -9,5 +9,6 @@ var replaceElements = function (arr) {
     arr[i] = max
     max = Math.max(max, temp)
   }
+  
   return arr
 }
