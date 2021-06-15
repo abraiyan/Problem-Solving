@@ -1,4 +1,4 @@
-class Solution141 {
+class Solution206 {
     public ListNode reverseList(ListNode head) {
         ListNode previousNode = null;
 
