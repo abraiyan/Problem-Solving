@@ -1,7 +1,7 @@
 var oddEvenList = function (head) {
   if (head === null) return head
-  let odd = head
-  let even = head.next
+  let odd = head,
+    even = head.next
   let evenHead = even
 
   while (even !== null && even.next !== null) {
