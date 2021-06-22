@@ -1,6 +1,5 @@
 var swapPairs = function (head) {
   let node = new ListNode(0)
-  node.next = head
   let tail = node
 
   while (head && head.next) {
