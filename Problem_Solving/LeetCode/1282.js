@@ -12,7 +12,7 @@ var groupThePeople = function (groupSizes) {
 
     if (n === map.get(n).length) {
       output.push(map.get(n))
-      map.set(n, [])
+      map.delete(n)
     }
   }
 
