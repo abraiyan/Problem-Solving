@@ -17,7 +17,6 @@ class Solution1544 {
         for (char c : stack) {
             output.append(c);
         }
-
         return output.toString();
     }
 }
