@@ -19,6 +19,5 @@ var addTwoNumbers = function (l1, l2) {
   if (carry > 0) {
     current.next = new ListNode(carry)
   }
-
   return head.next
 }
