@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.Map;
 
 class Solution {
+    
     public String rankTeams(String[] votes) {
         Map<Character, int[]> map = new HashMap<>();
         int l = votes[0].length();
@@ -30,6 +31,7 @@ class Solution {
         for (char c : list) {
             sb.append(c);
         }
+
         return sb.toString();
     }
 }
