@@ -1,13 +1,12 @@
 import java.util.Arrays;
-import java.util.Comparator;
 
-class Solution1710 {
+class Solution {
     public int maximumUnits(int[][] boxTypes, int truckSize) {
-        Arrays.sort(boxTypes, Comparator.comparingDouble(o -> o[1]));
+        Arrays.sort(boxTypes, (a, b) -> b[1] - a[1]);
         int output = 0;
-        int i = boxTypes.length - 1;
+        int i = 0;
 
-        while (truckSize != 0 && i >= 0) {
+        while (truckSize != 0 && i < boxTypes.length) {
             if (truckSize >= boxTypes[i][0]) {
                 truckSize -= boxTypes[i][0];
                 output += boxTypes[i][1] * boxTypes[i][0];
@@ -15,7 +14,7 @@ class Solution1710 {
                 output += boxTypes[i][1] * truckSize;
                 break;
             }
-            i--;
+            i++;
         }
 
         return output;
