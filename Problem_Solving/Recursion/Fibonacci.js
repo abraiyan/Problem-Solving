@@ -34,9 +34,9 @@ function fibonacciBottomUp(n) {
     return 1
   }
 
-  const array = [1, 1]
+  const array = [0, 1, 1]
 
-  for (let i = 2; i <= n; i++) {
+  for (let i = 3; i <= n; i++) {
     array[i] = array[i - 1] + array[i - 2]
   }
   return array[n]
